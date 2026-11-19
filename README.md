@@ -3,9 +3,22 @@
 Computer Science undergraduate at IIT Bhilai, preparing for software engineering roles.
 I like building systems end to end: backend services, data pipelines, machine learning and the interfaces on top of them.
 
+> *Think beyond. Build beyond.*
+
 &nbsp;
 
-## Projects
+## Flagship
+
+### Nexora
+*An AI mentor that learns what you know, and tells you what to practise next.*
+
+Nexora builds a model of your skills from your real submissions, then recommends problems, plans interview prep and teaches system design without handing over the answer. It runs as a distributed system: stateless API and web replicas behind a load balancer, Postgres with pgvector, Redis, a sandboxed code executor and a CI/CD pipeline with automatic rollback.
+
+FastAPI · Next.js · Postgres · Redis · Docker · GitHub Actions
+
+&nbsp;
+
+## Selected projects
 
 ### [opencs-labs](https://github.com/Jas-thinks/opencs-labs)
 A multi-user platform for teaching data science through isolated, persistent Jupyter notebooks.
