@@ -1,50 +1,38 @@
-# Hi, I'm Jaswinder Singh 👋
+# Jaswinder Singh
 
-CSE undergraduate at **IIT Bhilai**, preparing for SDE roles. I build full-stack products, data platforms and machine-learning systems, and I enjoy the space where they meet: streaming pipelines, model serving, compilers and developer tooling.
+B.Tech Computer Science and Engineering at **IIT Bhilai** (2023 to 2027). Preparing for SDE roles and internships.
+
+I like understanding how software works underneath: compilers, distributed systems, backend services and applied machine learning. Most of what is below was built to learn something properly, and each repository says plainly what is and is not finished.
 
 > *Think beyond. Build beyond.*
 
-## Featured projects
+**Portfolio:** [source](https://github.com/Jas-thinks/portfolio) · **Email:** jaswinders@iitbhilai.ac.in
+
+## Selected projects
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**Nexora**](https://github.com/Jas-thinks/nexora) ⭐ | My flagship project. An AI mentor for DSA, competitive programming and system design that models what you know from real submissions and tells you what to practise next. Distributed deployment with CI/CD and automatic rollback. | FastAPI, Next.js, Postgres, Redis, Docker |
-| [**QubitX**](https://github.com/Jas-thinks/QubitX) | Natural-language tutor for quantum computing. Hybrid retrieval with reranking and NLI faithfulness checks, a fine-tuned text-to-circuit parser, and circuits run on Qiskit, PennyLane and Cirq. Every NLP component has a dataset, baseline and ablation. | FastAPI, PyTorch, pgvector, React, TypeScript |
-| [**gearbox**](https://github.com/Jas-thinks/gearbox) | Peer-to-peer camera-gear rental marketplace built as an AWS-ready distributed system: transactional outbox into SQS, Redis idempotency and rate limiting, autoscaled workers. | Next.js, TypeScript, Redis, SQS, Terraform |
-| [**opencs-labs**](https://github.com/Jas-thinks/opencs-labs) | Multi-user platform teaching data analysis through isolated, persistent Jupyter notebooks. | FastAPI, React, JupyterHub, KubeSpawner |
-| [**oil-spill-detection**](https://github.com/Jas-thinks/oil-spill-detection) | B.Tech final-year project. Fuses live AIS vessel anomaly detection with Sentinel-1 SAR validation to flag oil spills. | Kafka, Airflow, PyTorch, YOLO, FastAPI, Next.js |
-| [**lstm-code-backdoor-detection**](https://github.com/Jas-thinks/lstm-code-backdoor-detection) | Platform for generating, detecting and evaluating backdoors in LSTM code models. | Python, ML |
-| [**interview-prep-platform**](https://github.com/Jas-thinks/interview-prep-platform) | Judged problems, SM-2 spaced repetition, XP leaderboard, streaming AI tutor, code visualizer. | JavaScript, Python |
+| [**Nexora**](https://github.com/Jas-thinks/nexora) | AI mentor for DSA, competitive programming and system design. Models what you know from real submissions and recommends what to practise next. Three API replicas behind a load balancer, CI/CD with smoke tests and rollback. | FastAPI, Next.js, Postgres, Redis, Docker |
+| **NOVA** (private) | Two compilers: a typed language through an LR(1) parser, SSA and an optimizer to a VM and x86-64, and a SQL compiler. Checked by differential fuzzing against a reference interpreter and SQLite. | C++17, x86-64, FastAPI, React |
+| [**QubitX**](https://github.com/Jas-thinks/QubitX) | Natural-language tutor for quantum computing. Hybrid retrieval, reranking and NLI faithfulness checks, with a dataset, baseline and ablation for each NLP component. | PyTorch, FastAPI, pgvector, React |
+| [**lstm-code-backdoor-detection**](https://github.com/Jas-thinks/lstm-code-backdoor-detection) | Team B.Tech project on backdoors in code models: attack on CodeT5 and UniXcoder, plus detectors. Results are single-seed and the detectors are weak, which the README says. | PyTorch, Python |
+| [**gearbox**](https://github.com/Jas-thinks/gearbox) | Camera-gear rental marketplace built around correctness under concurrency: exclusion constraints, idempotency keys, transactional outbox into SQS. | Next.js, TypeScript, Redis, SQS, Terraform |
+| [**AI-POND-RECOMMENDATION**](https://github.com/Jas-thinks/AI-POND-RECOMMENDATION) | Geospatial decision support for ranking village pond sites: priority-flood, D8 flow, catchments, TOPSIS. | Python, FastAPI, Leaflet |
 
-## Also worth a look
+More: [VesselWatch](https://github.com/Jas-thinks/oil-spill-detection) (team) · [OpenCS Labs](https://github.com/Jas-thinks/opencs-labs) (team) · [Interview Prep Platform](https://github.com/Jas-thinks/interview-prep-platform) · [Network-Science58](https://github.com/Jas-thinks/Network-Science58) · [Proximity API](https://github.com/Jas-thinks/SYSTEM_DESIGN-PROXIMITY-API) · [Chat](https://github.com/Jas-thinks/CHAT-Application) · [BKT](https://github.com/Jas-thinks/BKT) · [Outlast Media](https://github.com/Jas-thinks/Outlast-Media)
 
-[AI-POND-RECOMMENDATION](https://github.com/Jas-thinks/AI-POND-RECOMMENDATION) · [SYSTEM_DESIGN-PROXIMITY-API](https://github.com/Jas-thinks/SYSTEM_DESIGN-PROXIMITY-API) · [Network-Science58](https://github.com/Jas-thinks/Network-Science58) · [CHAT-Application](https://github.com/Jas-thinks/CHAT-Application)
+## Competitive programming
 
-## What I focus on
+| Platform | Handle | Snapshot (20 Nov 2026) |
+|---|---|---|
+| [Codeforces](https://codeforces.com/profile/jas.thinks) | jas.thinks | peak 1448 (Specialist), 47 rated contests |
+| [CodeChef](https://www.codechef.com/users/jasthinks) | jasthinks | 1476, 2 star, 145 problems solved |
+| [LeetCode](https://leetcode.com/u/Jas_thinks/) | Jas_thinks | 121 solved, contest rating 1446 |
 
-- **Backend and distributed systems:** async APIs, queues, caching, idempotency, CI/CD with rollback.
-- **Applied ML:** training, evaluation and ablations, with measured results rather than demos.
-- **Compilers and developer tooling:** parsers, optimizers and verification by differential testing.
+## Technologies
 
-## Tech I work with
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?logo=apacheairflow&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+Python · C++ · TypeScript · SQL · FastAPI · Next.js · React · PyTorch · PostgreSQL · Redis · Docker · GitHub Actions · Terraform · Kafka · Airflow
 
 ## Connect
 
-Open to SDE / software engineering roles this campus placement season.
-
-
-[LinkedIn](https://www.linkedin.com/in/jaswinder-singh-968153300/)
+Open to SDE internships and full-time roles. [Email](mailto:jaswinders@iitbhilai.ac.in) · [LinkedIn](https://www.linkedin.com/in/jaswinder-singh-968153300/)
