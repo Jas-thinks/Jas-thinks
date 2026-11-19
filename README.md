@@ -9,7 +9,7 @@ I like building systems end to end: backend services, data pipelines, machine le
 
 ## Flagship
 
-### Nexora
+### [Nexora](https://github.com/Jas-thinks/nexora)
 *An AI mentor that learns what you know, and tells you what to practise next.*
 
 Nexora builds a model of your skills from your real submissions, then recommends problems, plans interview prep and teaches system design without handing over the answer. It runs as a distributed system: stateless API and web replicas behind a load balancer, Postgres with pgvector, Redis, a sandboxed code executor and a CI/CD pipeline with automatic rollback.
