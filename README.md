@@ -44,7 +44,7 @@ CSE undergraduate at **IIT Bhilai**, preparing for SDE roles. I build full-stack
 
 ## Connect
 
-Open to SDE / software engineering roles for the 2026 campus placement season.
+Open to SDE / software engineering roles this campus placement season.
 
 
 [LinkedIn](https://www.linkedin.com/in/jaswinder-singh-968153300/)
